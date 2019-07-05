@@ -151,12 +151,22 @@ margin-top: 15px;
 .filtrosVista{
 
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:1fr ;
     height: 30px;
 }
 
 .filtrosVista p{
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buscador{
+  margin-bottom: 25px;
+  margin-left: 245px;
+  width: 535px;
+  padding-bottom: 15px;
+  display: flex;
     align-items: center;
     justify-content: center;
 }
