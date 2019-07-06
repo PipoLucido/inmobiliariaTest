@@ -41,7 +41,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .homeContent{
-    height: 650px; 
+    height: 680px; 
     width: 100%;
     display: grid;
     grid-gap: 5px;
@@ -52,13 +52,14 @@ body::-webkit-scrollbar-thumb{
 .titulo{
     display: flex;
     align-items: flex-end;
+    padding-bottom: 25px;
     justify-content: center;
-    padding-top: 120px;
+    
 }
 
 .filtros{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     margin-left: 45px;
     margin-right: 45px;
@@ -101,12 +102,24 @@ body::-webkit-scrollbar-thumb{
 
 /*//////////////////////////////INMUEBLES////////////////////////////////*/
 
+
+
+#inmueblesViewPage{
+  display: none;
+  padding-top: 165px;
+  background-image: url("http://www.albertorossipropiedades.com/Files/250216/Sliders/2_250216_3514575_fondo%20s.jpg");
+  background-position-y: -85px;
+}
+
+
+
+
 #inmuebles{
     height: 650px; 
     width: 100%;
     display: grid;
     grid-gap: 5px;
-	grid-template-columns:  1fr 4fr;
+	grid-template-columns:  1fr 3fr!important;
     background-color: white;
 }
 
@@ -355,4 +368,13 @@ grid-template-columns:1fr;
   .blog-card.alt .details {
     padding-left: 25px;
   }
+}
+
+.caracteristicasCard i{
+  color:gray;
+}
+
+
+.caracteristicasCard i{
+  margin-left: 5px;
 }
