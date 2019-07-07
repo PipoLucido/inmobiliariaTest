@@ -379,3 +379,62 @@ grid-template-columns:1fr;
 .caracteristicasCard i{
   margin-left: 5px;
 }
+
+
+/*///////////////////PROPIEDADES DESTACADAS///////////////////////////////*/
+
+.propiedadesDestacadas{
+  text-align: center;
+  display: grid;
+  grid-template-columns:1fr ;
+  background-image: url("https://i.ytimg.com/vi/Ru2XjBQFwX4/maxresdefault.jpg");
+}
+
+.propiedadesDestacadas h3{
+  text-decoration: underline;
+}
+
+.cardDestacados{
+
+
+  margin: 0 auto;
+  display: grid;
+  padding-bottom: 15px;
+	grid-template-columns:1fr 1fr;
+
+
+}
+
+.imgDestacado{
+
+  
+
+}
+
+.imgDestacado img{
+  width: 400px;
+  height: 350px;
+  float: right;
+  box-shadow: 11px 10px 5px rgba(0, 0, 0, 0.363);
+}
+
+.precioCardDestacada{
+  position: relative;
+  width: 100px;
+  text-align: start;
+  padding-left: 3px;
+  top: 15px;
+  left: 230px;
+  padding: 5px;
+  background-color: yellow;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.363);
+}
+
+.propiedadesDeInmuebleDestacado{
+
+  background-color: yellow;
+  width: 400px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.363);
+}
+
+/*///////////////////////////////////////////////////////////////*/
