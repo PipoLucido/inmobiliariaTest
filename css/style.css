@@ -38,7 +38,8 @@ body::-webkit-scrollbar-thumb{
 
 #home{
     background-image: url("https://http2.mlstatic.com/galpon-11x30x5-y-15x30x6-metros-galpones-todas-las-medidas-D_NQ_NP_909125-MLC25397620049_022017-F.jpg");
-}
+    background-size: 110%;
+  }
 
 .homeContent{
     height: 680px; 
