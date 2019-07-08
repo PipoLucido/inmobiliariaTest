@@ -29,7 +29,7 @@ body::-webkit-scrollbar-thumb{
     width: 100%;
     background-color: yellow;
     opacity: 0.75;
-    z-index: 999;
+    z-index: 9999;
 }
 
 #header img{
@@ -387,7 +387,8 @@ grid-template-columns:1fr;
   text-align: center;
   display: grid;
   grid-template-columns:1fr ;
-  background-image: url("https://i.ytimg.com/vi/Ru2XjBQFwX4/maxresdefault.jpg");
+  background-image: url("/img/Patron.svg");
+  background-size: 111%;
 }
 
 .propiedadesDestacadas h3{
@@ -438,3 +439,50 @@ grid-template-columns:1fr;
 }
 
 /*///////////////////////////////////////////////////////////////*/
+
+/*/////////////////////////////CONTACTO HOME ///////////////////////////*/
+
+
+.contactoHome{
+
+  display: grid;
+  text-align: center;
+	grid-template-columns:1fr 1fr;
+
+}
+
+#map{
+  
+  height: 580px
+ 
+}
+
+.contactoFOrm{
+  margin: 35px;
+}
+
+.contactoFOrm input ,.contactoFOrm select,.contactoFOrm textarea{
+  outline: none !important;
+  border:1px solid rgb(255, 208, 0);
+  
+}
+
+.contactoFOrm input:focus ,.contactoFOrm select:focus,.contactoFOrm textarea:focus{
+  outline: none !important;
+  border:1px solid rgb(255, 208, 0);
+  box-shadow: 0 0 10px rgb(207, 182, 67);
+}
+
+.contactoFOrm h4{
+  color: rgb(219, 110, 219);
+ 
+}
+
+#openModal{
+  cursor: pointer;
+}
+
+#openModal:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}

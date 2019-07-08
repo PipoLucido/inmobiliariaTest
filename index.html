@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link  rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
     <title>Scafolld-React</title>
 </head>
 
@@ -29,4 +32,38 @@
 
 
 </body>
+<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+crossorigin=""></script>
+
+<script>
+    var mymap = L.map('map').setView([-34.571827, -58.543106], 16);
+    L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
+    attribution: ' <a href="http://agenciabyrons.com/">Agenciabyrons.com</a>',
+    maxZoom: 18,
+    id: 'mapbox.streets',
+    accessToken: 'your.mapbox.access.token'
+
+    
+}).addTo(mymap);
+
+var icono = L.icon({
+    iconUrl: './img/ubicacionIcon.png',
+   
+
+    iconSize:     [20, 30], // size of the icon
+    
+    iconAnchor:   [20, 20], // point of the icon which will correspond to marker's location
+   
+   
+});
+
+
+var marker = L.marker([-34.571827, -58.543106] , {icon: icono}).addTo(mymap);
+
+
+</script>
+
+
+
 </html>
