@@ -1,21 +1,20 @@
-body{
-    margin:0;
+body {
+    margin: 0;
     padding: 0;
-
     font-family: 'Roboto', sans-serif;
     background-color: white;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     width: 7px;
     background: rgb(255, 255, 255);
 }
 
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
     background: #a02d83;
     border-radius: 0;
 }
@@ -23,42 +22,41 @@ body::-webkit-scrollbar-thumb{
 
 /*/////////////////////-HOME start-///////////////////////*/
 
-#header{
+#header {
     position: fixed;
     height: 100px;
     width: 100%;
     background-color: yellow;
     opacity: 0.75;
-    z-index: 9999;
+    z-index: 999999999999999999999999999999;
 }
 
-#header img{
+#header img {
     width: 300px;
 }
 
-#home{
+#home {
     background-image: url("https://http2.mlstatic.com/galpon-11x30x5-y-15x30x6-metros-galpones-todas-las-medidas-D_NQ_NP_909125-MLC25397620049_022017-F.jpg");
     background-size: 110%;
-  }
+}
 
-.homeContent{
-    height: 680px; 
+.homeContent {
+    height: 680px;
     width: 100%;
     display: grid;
     grid-gap: 5px;
-	grid-template-columns:  1fr;
+    grid-template-columns: 1fr;
     color: azure;
 }
 
-.titulo{
+.titulo {
     display: flex;
     align-items: flex-end;
     padding-bottom: 25px;
     justify-content: center;
-    
 }
 
-.filtros{
+.filtros {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -66,29 +64,29 @@ body::-webkit-scrollbar-thumb{
     margin-right: 45px;
 }
 
-.filtros select{
- margin-left: 5px;
- margin-right: 5px; 
-}
-
-.filtros input{
+.filtros select {
     margin-left: 5px;
-    margin-right: 5px; 
+    margin-right: 5px;
 }
 
-.filtros button{
+.filtros input {
     margin-left: 5px;
-    margin-right: 5px; 
+    margin-right: 5px;
 }
 
+.filtros button {
+    margin-left: 5px;
+    margin-right: 5px;
+}
 
-.filtros input:focus ,.filtros select:focus{
+.filtros input:focus,
+.filtros select:focus {
     outline: none !important;
-    border:1px solid rgb(255, 208, 0);
+    border: 1px solid rgb(255, 208, 0);
     box-shadow: 0 0 10px rgb(207, 182, 67);
 }
 
-.direccion{
+.direccion {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -96,393 +94,438 @@ body::-webkit-scrollbar-thumb{
     margin-top: 35px;
 }
 
-.direccion h1{
+.direccion h1 {
     background-color: black;
-    opacity: 0.80; 
+    opacity: 0.80;
 }
+
 
 /*//////////////////////////////INMUEBLES////////////////////////////////*/
 
-
-
-#inmueblesViewPage{
-  display: none;
-  padding-top: 165px;
-  background-image: url("http://www.albertorossipropiedades.com/Files/250216/Sliders/2_250216_3514575_fondo%20s.jpg");
-  background-position-y: -85px;
+#inmueblesViewPage {
+    display: none;
+    padding-top: 165px;
+    background-image: url("http://www.albertorossipropiedades.com/Files/250216/Sliders/2_250216_3514575_fondo%20s.jpg");
+    background-position-y: -85px;
 }
 
-
-
-
-#inmuebles{
-    height: 650px; 
+#inmuebles {
+    height: 650px;
     width: 100%;
     display: grid;
     grid-gap: 5px;
-	grid-template-columns:  1fr 3fr!important;
+    grid-template-columns: 1fr 3fr!important;
     background-color: white;
 }
 
-
-#filtrosInmuebles{
+#filtrosInmuebles {
     display: grid;
-	grid-template-columns:1fr;
+    grid-template-columns: 1fr;
     background-color: white;
 }
 
-
-
-.contenidoFIltros div{
-margin-top: 15px;
-}
-
-.contenidoFIltros h4{
+.contenidoFIltros div {
     margin-top: 15px;
-    }
+}
 
-#filtrosInmuebles h4{
+.contenidoFIltros h4 {
+    margin-top: 15px;
+}
+
+#filtrosInmuebles h4 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-
-
-.dropdown{
+.dropdown {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#inmueblesVistas{
+#inmueblesVistas {
     padding-top: 35px;
     display: grid;
-	grid-template-columns:1fr;
+    grid-template-columns: 1fr;
     background-color: rgb(197, 197, 197);
 }
 
-.filtrosVista{
-
+.filtrosVista {
     display: grid;
-    grid-template-columns:1fr ;
+    grid-template-columns: 1fr;
     height: 30px;
 }
 
-.filtrosVista p{
+.filtrosVista p {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.buscador{
-  margin-bottom: 25px;
-  margin-left: 245px;
-  width: 535px;
-  padding-bottom: 15px;
-  display: flex;
+.buscador {
+    margin-bottom: 25px;
+    margin-left: 245px;
+    width: 535px;
+    padding-bottom: 15px;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#vistaDeInmuebles{
-
-display: grid;
-grid-template-columns:1fr;
+#vistaDeInmuebles {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
-#inmuebleCard{
+#inmuebleCard {
     margin: 15px;
 }
+
+
 /*////////////////////////--CARD--///////////////////////////////*/
 
-
 .blog-card {
-	box-sizing: border-box;
-  display: flex;
-  width: 1200px;
-  flex-direction: column;
-  margin: 1rem auto;
-  box-shadow: 0 3px 7px -1px rgba(0, 0, 0, .1);
-  margin-bottom: 1.6%;
-  background: #fff;
-  line-height: 1.4;
-  font-family: sans-serif;
-  border-radius: 5px;
-  overflow: hidden;
-  z-index: 0;
-}
-.blog-card a {
-  color: inherit;
-}
-.blog-card a:hover {
-  color: #5ad67d;
-}
-.blog-card:hover .photo {
-  transform: scale(1.3) rotate(3deg);
-}
-.blog-card .meta {
-  position: relative;
-  z-index: 0;
-  height: 200px;
-}
-.blog-card .photo {
-  position: absolute;
-  top: 0;
-  background-image: url("https://e.an.amtv.pe/actualidad-si-va-alquilar-inmueble-tome-cuenta-estas-recomendaciones-n238480-608x360-289194.jpg");
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-  transition: transform 0.2s;
-}
-.blog-card .details, .blog-card .details ul {
-  margin: auto;
-  padding: 0;
-  list-style: none;
-}
-.blog-card .details {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: -100%;
-  margin: auto;
-  transition: left 0.2s;
-  background: rgba(0, 0, 0, .6);
-  color: #fff;
-  padding: 10px;
-  width: 100%;
-  font-size: 0.9rem;
-}
-.blog-card .details a {
-  text-decoration: dotted underline;
-}
-.blog-card .details ul li {
-  display: inline-block;
-}
-.blog-card .details .author:before {
-
-}
-.blog-card .details .date:before {
-
-}
-.blog-card .details .tags ul:before {
-
-}
-.blog-card .details .tags li {
-  margin-right: 2px;
-}
-.blog-card .details .tags li:first-child {
-  margin-left: -4px;
-}
-.blog-card .description {
-  padding: 1rem;
-  background: #fff;
-  position: relative;
-  z-index: 1;
-}
-.blog-card .description h1, .blog-card .description h2 {
-  font-family: Poppins, sans-serif;
-}
-.blog-card .description h1 {
-  line-height: 1;
-  margin: 0;
-  font-size: 1.7rem;
-}
-.blog-card .description h2 {
-  font-size: 1rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  color: #a2a2a2;
-  margin-top: 5px;
-}
-.blog-card .description .read-more {
-  text-align: right;
-}
-.blog-card .description .read-more a {
-  color: #5ad67d;
-  display: inline-block;
-  position: relative;
-}
-.blog-card .description .read-more a:after {
-
-  margin-left: -10px;
-  opacity: 0;
-  vertical-align: middle;
-  transition: margin 0.3s, opacity 0.3s;
-}
-.blog-card .description .read-more a:hover:after {
-  margin-left: 5px;
-  opacity: 1;
-}
-.blog-card p {
-  position: relative;
-  margin: 1rem 0 0;
-}
-.blog-card p:first-of-type {
-  margin-top: 1.25rem;
-}
-.blog-card p:first-of-type:before {
-  content: "";
-  position: absolute;
-  height: 5px;
-  background: #5ad67d;
-  width: 35px;
-  top: -0.75rem;
-  border-radius: 3px;
-}
-.blog-card:hover .details {
-  left: 0%;
-}
-@media (min-width: 640px) {
-  .blog-card {
-    flex-direction: row;
-    max-width: 700px;
-  }
-  .blog-card .meta {
-    flex-basis: 40%;
-    height: auto;
-  }
-  .blog-card .description {
-    flex-basis: 60%;
-  }
-  .blog-card .description:before {
-    transform: skewX(-3deg);
-    content: "";
+    box-sizing: border-box;
+    display: flex;
+    width: 1200px;
+    flex-direction: column;
+    margin: 1rem auto;
+    box-shadow: 0 3px 7px -1px rgba(0, 0, 0, .1);
+    margin-bottom: 1.6%;
     background: #fff;
-    width: 30px;
+    line-height: 1.4;
+    font-family: sans-serif;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.blog-card a {
+    color: inherit;
+}
+
+.blog-card a:hover {
+    color: #5ad67d;
+}
+
+.blog-card:hover .photo {
+    transform: scale(1.3) rotate(3deg);
+}
+
+.blog-card .meta {
+    position: relative;
+    z-index: 0;
+    height: 200px;
+}
+
+.blog-card .photo {
     position: absolute;
-    left: -10px;
+    top: 0;
+    background-image: url("https://e.an.amtv.pe/actualidad-si-va-alquilar-inmueble-tome-cuenta-estas-recomendaciones-n238480-608x360-289194.jpg");
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.2s;
+}
+
+.blog-card .details,
+.blog-card .details ul {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+}
+
+.blog-card .details {
+    position: absolute;
     top: 0;
     bottom: 0;
-    z-index: -1;
-  }
-  .blog-card.alt {
-    flex-direction: row-reverse;
-  }
-  .blog-card.alt .description:before {
-    left: inherit;
-    right: -10px;
-    transform: skew(3deg);
-  }
-  .blog-card.alt .details {
-    padding-left: 25px;
-  }
+    left: -100%;
+    margin: auto;
+    transition: left 0.2s;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    font-size: 0.9rem;
 }
 
-.caracteristicasCard i{
-  color:gray;
+.blog-card .details a {
+    text-decoration: dotted underline;
 }
 
+.blog-card .details ul li {
+    display: inline-block;
+}
 
-.caracteristicasCard i{
-  margin-left: 5px;
+.blog-card .details .author:before {}
+
+.blog-card .details .date:before {}
+
+.blog-card .details .tags ul:before {}
+
+.blog-card .details .tags li {
+    margin-right: 2px;
+}
+
+.blog-card .details .tags li:first-child {
+    margin-left: -4px;
+}
+
+.blog-card .description {
+    padding: 1rem;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.blog-card .description h1,
+.blog-card .description h2 {
+    font-family: Poppins, sans-serif;
+}
+
+.blog-card .description h1 {
+    line-height: 1;
+    margin: 0;
+    font-size: 1.7rem;
+}
+
+.blog-card .description h2 {
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #a2a2a2;
+    margin-top: 5px;
+}
+
+.blog-card .description .read-more {
+    text-align: right;
+}
+
+.blog-card .description .read-more a {
+    color: #5ad67d;
+    display: inline-block;
+    position: relative;
+}
+
+.blog-card .description .read-more a:after {
+    margin-left: -10px;
+    opacity: 0;
+    vertical-align: middle;
+    transition: margin 0.3s, opacity 0.3s;
+}
+
+.blog-card .description .read-more a:hover:after {
+    margin-left: 5px;
+    opacity: 1;
+}
+
+.blog-card p {
+    position: relative;
+    margin: 1rem 0 0;
+}
+
+.blog-card p:first-of-type {
+    margin-top: 1.25rem;
+}
+
+.blog-card p:first-of-type:before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    background: #5ad67d;
+    width: 35px;
+    top: -0.75rem;
+    border-radius: 3px;
+}
+
+.blog-card:hover .details {
+    left: 0%;
+}
+
+@media (min-width: 640px) {
+    .blog-card {
+        flex-direction: row;
+        max-width: 700px;
+    }
+    .blog-card .meta {
+        flex-basis: 40%;
+        height: auto;
+    }
+    .blog-card .description {
+        flex-basis: 60%;
+    }
+    .blog-card .description:before {
+        transform: skewX(-3deg);
+        content: "";
+        background: #fff;
+        width: 30px;
+        position: absolute;
+        left: -10px;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    .blog-card.alt {
+        flex-direction: row-reverse;
+    }
+    .blog-card.alt .description:before {
+        left: inherit;
+        right: -10px;
+        transform: skew(3deg);
+    }
+    .blog-card.alt .details {
+        padding-left: 25px;
+    }
+}
+
+.caracteristicasCard i {
+    color: gray;
+}
+
+.caracteristicasCard i {
+    margin-left: 5px;
 }
 
 
 /*///////////////////PROPIEDADES DESTACADAS///////////////////////////////*/
 
-.propiedadesDestacadas{
-  text-align: center;
-  display: grid;
-  grid-template-columns:1fr ;
-  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBB%0D%0AZG9iZSBJbGx1c3RyYXRvciAyMi4wLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9u%0D%0AOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxu%0D%0Acz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3Lncz%0D%0ALm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDE5MTkuNiAx%0D%0AMDAyLjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE5MTkuNiAxMDAyLjQ7IiB4%0D%0AbWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQoJLnN0MHtmaWxs%0D%0AOm5vbmU7fQ0KCS5zdDF7ZmlsbDojRjZGNkY2O30NCgkuc3Qye2ZpbGw6I0IzQjJCMjt9DQoJLnN0%0D%0AM3tmaWxsOnVybCgjU1ZHSURfMV8pO30NCgkuc3Q0e2ZpbGw6dXJsKCNTVkdJRF8yXyk7fQ0KCS5z%0D%0AdDV7ZmlsbDp1cmwoI1NWR0lEXzNfKTt9DQoJLnN0NntmaWxsOnVybCgjU1ZHSURfNF8pO30NCgku%0D%0Ac3Q3e2ZpbGw6dXJsKCNTVkdJRF81Xyk7fQ0KCS5zdDh7ZmlsbDp1cmwoI1NWR0lEXzZfKTt9DQo8%0D%0AL3N0eWxlPg0KPHBhdHRlcm4gIHg9IjcuNSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiIHBhdHRl%0D%0Acm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIGlkPSJOdWV2YV9tdWVzdHJhX2RlX21vdGl2b18xIiB2%0D%0AaWV3Qm94PSIwIC0yMDAgMjAwIDIwMCIgc3R5bGU9Im92ZXJmbG93OnZpc2libGU7Ij4NCgk8Zz4N%0D%0ACgkJPHJlY3QgeT0iLTIwMCIgY2xhc3M9InN0MCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiLz4N%0D%0ACgkJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIwLDAgMjguOCwwIDAsLTI4LjggCQkiLz4N%0D%0ACgkJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIwLC0yMDAgMCwtMTcxLjIgMjguOCwtMjAw%0D%0AIAkJIi8+DQoJCTxwb2x5Z29uIGNsYXNzPSJzdDEiIHBvaW50cz0iMTM1LjIsLTIwMCAyMDAsLTEz%0D%0ANS4yIDIwMCwtMTU0LjIgMTU0LjIsLTIwMCAJCSIvPg0KCQk8cG9seWdvbiBjbGFzcz0ic3QxIiBw%0D%0Ab2ludHM9IjEwMCwtMjAwIDIwMCwtMTAwIDIwMCwtMTE4LjIgMTE4LjIsLTIwMCAJCSIvPg0KCQk8%0D%0AcG9seWdvbiBjbGFzcz0ic3QxIiBwb2ludHM9IjE3MS4yLC0yMDAgMjAwLC0xNzEuMiAyMDAsLTIw%0D%0AMCAJCSIvPg0KCQk8cG9seWdvbiBjbGFzcz0ic3QxIiBwb2ludHM9IjQ1LjgsLTIwMCAwLC0xNTQu%0D%0AMiAwLC0xMzUuMiA2NC44LC0yMDAgCQkiLz4NCgkJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRz%0D%0APSIwLC04MS44IDgxLjgsMCAxMDAsMCAwLC0xMDAgCQkiLz4NCgkJPHBvbHlnb24gY2xhc3M9InN0%0D%0AMSIgcG9pbnRzPSI4MS44LC0yMDAgMCwtMTE4LjIgMCwtMTAwIDEwMCwtMjAwIAkJIi8+DQoJCTxw%0D%0Ab2x5Z29uIGNsYXNzPSJzdDEiIHBvaW50cz0iMCwtNDUuOCA0NS44LDAgNjQuOCwwIDAsLTY0Ljgg%0D%0ACQkiLz4NCgkJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIxNTQuMiwwIDIwMCwtNDUuOCAy%0D%0AMDAsLTY0LjggMTM1LjIsMCAJCSIvPg0KCQk8cG9seWdvbiBjbGFzcz0ic3QxIiBwb2ludHM9IjIw%0D%0AMCwwIDIwMCwtMjguOCAxNzEuMiwwIAkJIi8+DQoJCTxwb2x5Z29uIGNsYXNzPSJzdDEiIHBvaW50%0D%0Acz0iMTE4LjIsMCAyMDAsLTgxLjggMjAwLC0xMDAgMTAwLDAgCQkiLz4NCgkJPHBvbHlnb24gY2xh%0D%0Ac3M9InN0MSIgcG9pbnRzPSI2MS41LC0xNDYuMiA5Mi4zLC0xMTUuNCAxMTUuNCwtMTM4LjUgMTAw%0D%0ALC0xNTMuOCA5Mi4zLC0xNDYuMiAxMDAsLTEzOC41IDkyLjMsLTEzMC44IDc2LjksLTE0Ni4yIA0K%0D%0ACQkJMTAwLC0xNjkuMiAxMzAuOCwtMTM4LjUgMTAxLjIsLTEwOC45IDkxLjEsLTk4LjggNjEuNSwt%0D%0ANjkuMiAzMC44LC0xMDAgNTMuOCwtMTIzLjEgNjkuMiwtMTA3LjcgNjEuNSwtMTAwIDUzLjgsLTEw%0D%0ANy43IDQ2LjIsLTEwMCANCgkJCTYxLjUsLTg0LjYgODQuNiwtMTA3LjcgNTMuOCwtMTM4LjUgMTUu%0D%0ANCwtMTAwIDUzLjgsLTYxLjYgNTMuOCwtNjEuNiAxMDAsLTE1LjQgMTM4LjUsLTUzLjggMTA3Ljcs%0D%0ALTg0LjYgODQuNiwtNjEuNSAxMDAsLTQ2LjIgDQoJCQkxMDcuNywtNTMuOCAxMDAsLTYxLjUgMTA3%0D%0ALjcsLTY5LjIgMTIzLjEsLTUzLjggMTA3LjcsLTM4LjUgMTAwLC0zMC44IDY5LjIsLTYxLjUgOTcu%0D%0ANywtOTAgMTEwLC0xMDIuMyAxMzguNSwtMTMwLjggMTY5LjIsLTEwMCANCgkJCTE0Ni4yLC03Ni45%0D%0AIDEzMC44LC05Mi4zIDEzOC41LC0xMDAgMTQ2LjIsLTkyLjMgMTUzLjgsLTEwMCAxMzguNSwtMTE1%0D%0ALjQgMTE1LjQsLTkyLjMgMTQ2LjIsLTYxLjUgMTg0LjYsLTEwMCAxMzUuMSwtMTQ5LjUgDQoJCQkx%0D%0AMDAsLTE4NC42IAkJIi8+DQoJCTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik0xMDAtMjAwbDEwMCwxMDBM%0D%0AMTAwLDBMMC0xMDBMMTAwLTIwMHogTTEzNS4xLTE0OS41TDEwMC0xODQuNmwtMzguNSwzOC41bDMw%0D%0ALjgsMzAuOGwyMy4xLTIzLjFMMTAwLTE1My44DQoJCQlsLTcuNyw3LjdsNy43LDcuN2wtNy43LDcu%0D%0AN2wtMTUuNC0xNS40bDIzLjEtMjMuMWwzMC44LDMwLjhsLTI5LjUsMjkuNUw5MS4xLTk4LjhMNjEu%0D%0ANS02OS4yTDMwLjgtMTAwbDIzLjEtMjMuMWwxNS40LDE1LjQNCgkJCWwtNy43LDcuN2wtNy43LTcu%0D%0AN2wtNy43LDcuN2wxNS40LDE1LjRsMjMuMS0yMy4xbC0zMC44LTMwLjhMMTUuNC0xMDBsMzguNCwz%0D%0AOC40aDBMMTAwLTE1LjRsMzguNS0zOC41bC0zMC44LTMwLjhMODQuNi02MS41DQoJCQlMMTAwLTQ2%0D%0ALjJsNy43LTcuN2wtNy43LTcuN2w3LjctNy43bDE1LjQsMTUuNGwtMTUuNCwxNS40bC03LjcsNy43%0D%0ATDY5LjItNjEuNUw5Ny43LTkwbDEyLjMtMTIuM2wyOC41LTI4LjVsMzAuOCwzMC44bC0yMy4xLDIz%0D%0ALjENCgkJCWwtMTUuNC0xNS40bDcuNy03LjdsNy43LDcuN2w3LjctNy43bC0xNS40LTE1LjRsLTIz%0D%0ALjEsMjMuMWwzMC44LDMwLjhsMzguNS0zOC41TDEzNS4xLTE0OS41eiIvPg0KCQk8cG9seWdvbiBj%0D%0AbGFzcz0ic3QyIiBwb2ludHM9IjExOC4yLC0yMDAgMjAwLC0xMTguMiAyMDAsLTEzNS4yIDEzNS4y%0D%0ALC0yMDAgCQkiLz4NCgkJPHBvbHlnb24gY2xhc3M9InN0MiIgcG9pbnRzPSIxNTQuMiwtMjAwIDIw%0D%0AMCwtMTU0LjIgMjAwLC0xNzEuMiAxNzEuMiwtMjAwIAkJIi8+DQoJCTxwb2x5Z29uIGNsYXNzPSJz%0D%0AdDIiIHBvaW50cz0iMTM1LjIsMCAyMDAsLTY0LjggMjAwLC04MS44IDExOC4yLDAgCQkiLz4NCgkJ%0D%0APHBvbHlnb24gY2xhc3M9InN0MiIgcG9pbnRzPSIxNzEuMiwwIDIwMCwtMjguOCAyMDAsLTQ1Ljgg%0D%0AMTU0LjIsMCAJCSIvPg0KCQk8cG9seWdvbiBjbGFzcz0ic3QyIiBwb2ludHM9IjY0LjgsLTIwMCAw%0D%0ALC0xMzUuMiAwLC0xMTguMiA4MS44LC0yMDAgCQkiLz4NCgkJPHBvbHlnb24gY2xhc3M9InN0MiIg%0D%0AcG9pbnRzPSIyOC44LC0yMDAgMCwtMTcxLjIgMCwtMTU0LjIgNDUuOCwtMjAwIAkJIi8+DQoJCTxw%0D%0Ab2x5Z29uIGNsYXNzPSJzdDIiIHBvaW50cz0iMCwtNjQuOCA2NC44LDAgODEuOCwwIDAsLTgxLjgg%0D%0ACQkiLz4NCgkJPHBvbHlnb24gY2xhc3M9InN0MiIgcG9pbnRzPSIwLC0yOC44IDI4LjgsMCA0NS44%0D%0ALDAgMCwtNDUuOCAJCSIvPg0KCTwvZz4NCjwvcGF0dGVybj4NCjxnPg0KCTxwYXR0ZXJuICBpZD0i%0D%0AU1ZHSURfMV8iIHhsaW5rOmhyZWY9IiNOdWV2YV9tdWVzdHJhX2RlX21vdGl2b18xIiBwYXR0ZXJu%0D%0AVHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgMSAtMzE1LjA3MyAtMjM2LjMzNDUpIj4NCgk8L3BhdHRl%0D%0Acm4+DQoJPHJlY3QgeD0iNS4xIiB5PSIyIiBjbGFzcz0ic3QzIiB3aWR0aD0iODAwIiBoZWlnaHQ9%0D%0AIjgwMCIvPg0KCTxwYXR0ZXJuICBpZD0iU1ZHSURfMl8iIHhsaW5rOmhyZWY9IiNOdWV2YV9tdWVz%0D%0AdHJhX2RlX21vdGl2b18xIiBwYXR0ZXJuVHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgMSAtMzE1LjA3%0D%0AMyAxNjMuNjY1NSkiPg0KCTwvcGF0dGVybj4NCgk8cG9seWxpbmUgY2xhc3M9InN0NCIgcG9pbnRz%0D%0APSI1LjEsOTk5LjEgNS4xLDgwMiA4MDUuMSw4MDIgODA1LjEsOTk5IAkiLz4NCgkNCgkJPHBhdHRl%0D%0Acm4gIGlkPSJTVkdJRF8zXyIgeGxpbms6aHJlZj0iI051ZXZhX211ZXN0cmFfZGVfbW90aXZvXzEi%0D%0AIHBhdHRlcm5UcmFuc2Zvcm09Im1hdHJpeCgwLjk5NjIgMCAwIDEuMDI1NCAtMzEwLjkyODcgMTI1%0D%0ALjEwNzMpIj4NCgk8L3BhdHRlcm4+DQoJPHBvbHlsaW5lIGNsYXNzPSJzdDUiIHBvaW50cz0iODA1%0D%0ALjEsMTAwMi4xIDgwNS4xLDgwMCAxNjAyLjEsODAwIDE2MDIuMSwxMDAyIAkiLz4NCgk8cGF0dGVy%0D%0AbiAgaWQ9IlNWR0lEXzRfIiB4bGluazpocmVmPSIjTnVldmFfbXVlc3RyYV9kZV9tb3Rpdm9fMSIg%0D%0AcGF0dGVyblRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIDEgLTMxOC4wNzMgMTYxLjY2NTUpIj4NCgk8%0D%0AL3BhdHRlcm4+DQoJPHBhdGggY2xhc3M9InN0NiIgZD0iTTE5MjIuMSw4ODljMC0zLDAtOSwwLTEy%0D%0AYzAtMjYsMC01MSwwLTc3aC0zMjB2MTk5aDMyMEMxOTIxLjksOTYzLjIsMTkyMi4xLDkyNSwxOTIy%0D%0ALjEsODg5eiIvPg0KCTxwYXR0ZXJuICBpZD0iU1ZHSURfNV8iIHhsaW5rOmhyZWY9IiNOdWV2YV9t%0D%0AdWVzdHJhX2RlX21vdGl2b18xIiBwYXR0ZXJuVHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgMSAtMzE3%0D%0ALjA3MyAtMjM4LjMzNDUpIj4NCgk8L3BhdHRlcm4+DQoJPHJlY3QgeD0iODAzLjEiIGNsYXNzPSJz%0D%0AdDciIHdpZHRoPSI4MDAiIGhlaWdodD0iODAwIi8+DQoJPHBhdHRlcm4gIGlkPSJTVkdJRF82XyIg%0D%0AeGxpbms6aHJlZj0iI051ZXZhX211ZXN0cmFfZGVfbW90aXZvXzEiIHBhdHRlcm5UcmFuc2Zvcm09%0D%0AIm1hdHJpeCgxIDAgMCAxIC0zMTguMDczIC0yMzguMzM0NSkiPg0KCTwvcGF0dGVybj4NCgk8cG9s%0D%0AeWxpbmUgY2xhc3M9InN0OCIgcG9pbnRzPSIxOTE4LjYsODAwIDE2MDIuMSw4MDAgMTYwMi4xLDAg%0D%0AMTkyMS4xLDAgCSIvPg0KPC9nPg0KPC9zdmc+DQo=");
-  background-size: 111%;
+.propiedadesDestacadas {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-image: url("/img/Patron.svg");
+    background-size: 111%;
 }
 
-.propiedadesDestacadas h3{
-  text-decoration: underline;
+.propiedadesDestacadas h3 {
+    text-decoration: underline;
 }
 
-.cardDestacados{
-
-
-  margin: 0 auto;
-  display: grid;
-  padding-bottom: 15px;
-	grid-template-columns:1fr 1fr;
-
-
+.cardDestacados {
+    margin: 0 auto;
+    display: grid;
+    padding-bottom: 15px;
+    grid-template-columns: 1fr 1fr;
 }
 
-.imgDestacado{
+.imgDestacado {}
 
-  
-
+.imgDestacado img {
+    width: 400px;
+    height: 350px;
+    float: right;
+    box-shadow: 11px 10px 5px rgba(0, 0, 0, 0.363);
 }
 
-.imgDestacado img{
-  width: 400px;
-  height: 350px;
-  float: right;
-  box-shadow: 11px 10px 5px rgba(0, 0, 0, 0.363);
+.precioCardDestacada {
+    position: relative;
+    width: 100px;
+    text-align: start;
+    padding-left: 3px;
+    top: 15px;
+    left: 230px;
+    padding: 5px;
+    background-color: yellow;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.363);
 }
 
-.precioCardDestacada{
-  position: relative;
-  width: 100px;
-  text-align: start;
-  padding-left: 3px;
-  top: 15px;
-  left: 230px;
-  padding: 5px;
-  background-color: yellow;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.363);
+.propiedadesDeInmuebleDestacado {
+    background-color: yellow;
+    width: 400px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.363);
 }
 
-.propiedadesDeInmuebleDestacado{
-
-  background-color: yellow;
-  width: 400px;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.363);
-}
 
 /*///////////////////////////////////////////////////////////////*/
 
+
 /*/////////////////////////////CONTACTO HOME ///////////////////////////*/
 
-
-.contactoHome{
-
-  display: grid;
-  text-align: center;
-	grid-template-columns:1fr 1fr;
-
+.contactoHome {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
 }
 
-#map{
-  
-  height: 580px
- 
+#map {
+    height: 580px
 }
 
-.contactoFOrm{
-  margin: 35px;
+.contactoFOrm {
+    margin: 35px;
 }
 
-.contactoFOrm input ,.contactoFOrm select,.contactoFOrm textarea{
-  outline: none !important;
-  border:1px solid rgb(255, 208, 0);
-  
+.contactoFOrm input,
+.contactoFOrm select,
+.contactoFOrm textarea {
+    outline: none !important;
+    border: 1px solid rgb(255, 208, 0);
 }
 
-.contactoFOrm input:focus ,.contactoFOrm select:focus,.contactoFOrm textarea:focus{
-  outline: none !important;
-  border:1px solid rgb(255, 208, 0);
-  box-shadow: 0 0 10px rgb(207, 182, 67);
+.contactoFOrm input:focus,
+.contactoFOrm select:focus,
+.contactoFOrm textarea:focus {
+    outline: none !important;
+    border: 1px solid rgb(255, 208, 0);
+    box-shadow: 0 0 10px rgb(207, 182, 67);
 }
 
-.contactoFOrm h4{
-  color: rgb(219, 110, 219);
- 
+.contactoFOrm h4 {
+    color: rgb(219, 110, 219);
 }
 
-#openModal{
-  cursor: pointer;
+#openModal {
+    cursor: pointer;
 }
 
-#openModal:hover{
-  cursor: pointer;
-  text-decoration: underline;
+#openModal:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/******************MODAL***************/
+
+#modal {
+    display: none;
+}
+
+#modalCard {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 999999999999;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+#modalCard::-webkit-scrollbar {
+    width: 7px;
+    background: rgb(255, 255, 255);
+}
+
+#modalCard::-webkit-scrollbar-thumb {
+    background: #a02d83;
+    border-radius: 0;
+}
+
+#formularioModal {
+    display: none;
+    position: fixed;
+    right: 70px;
+    top: 40px;
+}
+
+.btnModal {
+    background-color: #a02d83;
+    border-style: none;
+    border-radius: 0;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,59 +10,55 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link  rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
-    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-    crossorigin=""/>
-    <title>Scafolld-React</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+    <title>Inmobiliaria | Galponera OESTE </title>
 </head>
 
 <body onselectstart="return false">
-  
+
     <div id="app"></div>
-   
 
 
-    
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="js/bundle.js" charset="UTF-8"></script>
 
-   
+
 
 
 </body>
-<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
-integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
-crossorigin=""></script>
+<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
 
 <script>
     var mymap = L.map('map').setView([-34.571827, -58.543106], 16);
     L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
-    attribution: ' <a href="http://agenciabyrons.com/">Agenciabyrons.com</a>',
-    maxZoom: 18,
-    id: 'mapbox.streets',
-    accessToken: 'your.mapbox.access.token'
-
-    
-}).addTo(mymap);
-
-var icono = L.icon({
-    iconUrl: './img/ubicacionIcon.png',
-   
-
-    iconSize:     [20, 30], // size of the icon
-    
-    iconAnchor:   [20, 20], // point of the icon which will correspond to marker's location
-   
-   
-});
+        attribution: ' <a href="http://agenciabyrons.com/">Agenciabyrons.com</a>',
+        maxZoom: 18,
+        id: 'mapbox.streets',
+        accessToken: 'your.mapbox.access.token'
 
 
-var marker = L.marker([-34.571827, -58.543106] , {icon: icono}).addTo(mymap);
+    }).addTo(mymap);
+
+    var icono = L.icon({
+        iconUrl: './img/ubicacionIcon.png',
 
 
+        iconSize: [20, 30], // size of the icon
+
+        iconAnchor: [20, 20], // point of the icon which will correspond to marker's location
+
+
+    });
+
+
+    var marker = L.marker([-34.571827, -58.543106], {
+        icon: icono
+    }).addTo(mymap);
 </script>
 
 
