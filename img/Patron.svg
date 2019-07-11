@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1919.6 1002.4" style="enable-background:new 0 0 1919.6 1002.4;" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1917.4 995" style="enable-background:new 0 0 1917.4 995;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;}
 	.st1{fill:#F6F6F6;}
-	.st2{fill:#B3B2B2;}
+	.st2{fill:#B2B2B2;}
 	.st3{fill:url(#SVGID_1_);}
-	.st4{fill:url(#SVGID_2_);}
-	.st5{fill:url(#SVGID_3_);}
-	.st6{fill:url(#SVGID_4_);}
-	.st7{fill:url(#SVGID_5_);}
-	.st8{fill:url(#SVGID_6_);}
+	.st4{display:none;}
+	.st5{display:inline;}
+	.st6{fill:none;stroke:#3F3F3F;stroke-width:3;stroke-miterlimit:10;}
 </style>
-<pattern  x="7.5" width="200" height="200" patternUnits="userSpaceOnUse" id="Nueva_muestra_de_motivo_1" viewBox="0 -200 200 200" style="overflow:visible;">
+<pattern  x="-1937.4" y="4.1" width="200" height="200" patternUnits="userSpaceOnUse" id="Nueva_muestra_de_motivo_1" viewBox="0 -200 200 200" style="overflow:visible;">
 	<g>
 		<rect y="-200" class="st0" width="200" height="200"/>
 		<polygon class="st1" points="0,0 28.8,0 0,-28.8 		"/>
@@ -49,25 +47,20 @@
 		<polygon class="st2" points="0,-28.8 28.8,0 45.8,0 0,-45.8 		"/>
 	</g>
 </pattern>
-<g>
-	<pattern  id="SVGID_1_" xlink:href="#Nueva_muestra_de_motivo_1" patternTransform="matrix(1 0 0 1 -315.073 -236.3345)">
+<g id="BACKGROUND">
+	<pattern  id="SVGID_1_" xlink:href="#Nueva_muestra_de_motivo_1" patternTransform="matrix(0.9843 0 0 1 -249.5283 -46.1925)">
 	</pattern>
-	<rect x="5.1" y="2" class="st3" width="800" height="800"/>
-	<pattern  id="SVGID_2_" xlink:href="#Nueva_muestra_de_motivo_1" patternTransform="matrix(1 0 0 1 -315.073 163.6655)">
-	</pattern>
-	<polyline class="st4" points="5.1,999.1 5.1,802 805.1,802 805.1,999 	"/>
-	
-		<pattern  id="SVGID_3_" xlink:href="#Nueva_muestra_de_motivo_1" patternTransform="matrix(0.9962 0 0 1.0254 -310.9287 125.1073)">
-	</pattern>
-	<polyline class="st5" points="805.1,1002.1 805.1,800 1602.1,800 1602.1,1002 	"/>
-	<pattern  id="SVGID_4_" xlink:href="#Nueva_muestra_de_motivo_1" patternTransform="matrix(1 0 0 1 -318.073 161.6655)">
-	</pattern>
-	<path class="st6" d="M1922.1,889c0-3,0-9,0-12c0-26,0-51,0-77h-320v199h320C1921.9,963.2,1922.1,925,1922.1,889z"/>
-	<pattern  id="SVGID_5_" xlink:href="#Nueva_muestra_de_motivo_1" patternTransform="matrix(1 0 0 1 -317.073 -238.3345)">
-	</pattern>
-	<rect x="803.1" class="st7" width="800" height="800"/>
-	<pattern  id="SVGID_6_" xlink:href="#Nueva_muestra_de_motivo_1" patternTransform="matrix(1 0 0 1 -318.073 -238.3345)">
-	</pattern>
-	<polyline class="st8" points="1918.6,800 1602.1,800 1602.1,0 1921.1,0 	"/>
+	<rect class="st3" width="1917.4" height="995"/>
+</g>
+<g id="TEXT" class="st4">
+	<g class="st5">
+		
+			<text transform="matrix(1 0 0 1 -1403.5858 627.0582)" style="fill:#3F3F3F; font-family:'Montserrat-Regular'; font-size:23.1368px; letter-spacing:2;">START UP</text>
+		
+			<text transform="matrix(1 0 0 1 -1471.2694 590.7759)" style="fill:#3F3F3F; font-family:'Montserrat-ExtraBold'; font-size:50.388px;">BUSINESS</text>
+		<line class="st6" x1="-1350.8" y1="654.4" x2="-1324.1" y2="654.4"/>
+		<rect x="-1532.5" y="679.1" class="st0" width="390.2" height="74.7"/>
+		<text transform="matrix(1 0 0 1 -1526.8475 689.8297)"><tspan x="0" y="0" style="fill:#3F3F3F; font-family:'Montserrat-Light'; font-size:15.0417px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed </tspan><tspan x="10.2" y="18" style="fill:#3F3F3F; font-family:'Montserrat-Light'; font-size:15.0417px;">diam nonummy nibh euismod tincidunt ut laoreet dolore </tspan><tspan x="-0.9" y="36.1" style="fill:#3F3F3F; font-family:'Montserrat-Light'; font-size:15.0417px;">magna aliquam erat volutpat. Ut wisi enim ad minim veniam, </tspan><tspan x="-1.5" y="54.2" style="fill:#3F3F3F; font-family:'Montserrat-Light'; font-size:15.0417px;">quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut </tspan></text>
+	</g>
 </g>
 </svg>
