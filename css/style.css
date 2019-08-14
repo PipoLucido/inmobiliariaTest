@@ -690,3 +690,41 @@ body::-webkit-scrollbar-thumb {
     border: 1px solid rgb(172, 9, 90);
     box-shadow: 0 0 10px rgb(172, 9, 90);
 }
+
+.headerOptionsMenu {
+    color: rgb(238, 124, 223);
+    position: fixed;
+    right: 0px;
+    top: 35px;
+}
+
+.headerOptionsMenu p {
+    display: inline-block;
+    margin-right: 60px;
+    cursor: pointer;
+    font-size: 20px;
+    opacity: 0.45;
+}
+
+.headerOptionsMenu p:hover {
+    opacity: 1;
+}
+
+.midleee {
+    text-align: center;
+    background-color: #afafaf;
+    color: #fff;
+    padding: 65px;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.colorInLine {
+    color: yellow;
+}
+
+.copyright {
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+}
