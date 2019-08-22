@@ -37,12 +37,15 @@
 <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
 
 <script>
-    var mymap = L.map('map').setView([-34.571827, -58.543106], 16);
+    var mymap = L.map('map', {
+        scrollWheelZoom: false
+    }).setView([-34.571827, -58.543106], 16);
     L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
         attribution: ' <a href="http://agenciabyrons.com/">Agenciabyrons.com</a>',
         maxZoom: 18,
         id: 'mapbox.streets',
         accessToken: 'your.mapbox.access.token'
+
 
 
     }).addTo(mymap);
