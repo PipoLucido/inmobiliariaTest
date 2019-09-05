@@ -716,6 +716,10 @@ body::-webkit-scrollbar-thumb {
     #precioMovil {
         display: block;
     }
+    
+    #chat {
+   display: none;
+}
 }
 
 
