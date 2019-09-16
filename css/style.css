@@ -449,13 +449,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .precioCardDestacada {
-    position: relative;
-    width: 100px;
+      width: 100px;
     text-align: start;
     padding-left: 3px;
-    top: 15px;
-    left: 270px;
+    position: relative;
+    float: right;
     padding: 5px;
+    top: 15px;
+    left: 85px;
     background-color: yellow;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.363);
 }
