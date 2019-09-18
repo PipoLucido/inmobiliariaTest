@@ -638,6 +638,10 @@ body::-webkit-scrollbar-thumb {
 /*//////////////////// MEDIA@QUERYS ///////////////////////*/
 
 @media (max-width: 846px) {
+    #imgHeader{
+        width: 200px;
+    }
+    
     .filtrosMobil {
         display: block;
         margin-top: 35px;
