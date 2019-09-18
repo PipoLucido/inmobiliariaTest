@@ -639,7 +639,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 846px) {
     #imgHeader{
-        width: 200px;
+        width: 200px!important;
     }
     
     .filtrosMobil {
