@@ -121,6 +121,12 @@ body::-webkit-scrollbar-thumb {
     opacity: 0.80;
 }
 
+@media (max-width: 1122px) {
+    .noDisplay {
+        display: none!important;
+    }
+}
+
 
 /*//////////////////////////////INMUEBLES////////////////////////////////*/
 
@@ -254,8 +260,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .imgPhotoCard {
-    width: 140%;
-    height: auto;
+    width: 120%;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -263,6 +269,7 @@ body::-webkit-scrollbar-thumb {
 .blog-card .details ul {
     margin: auto;
     padding: 0;
+    cursor: pointer;
     list-style: none;
 }
 
@@ -758,7 +765,7 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
     background-color: #afafaf;
     color: #fff;
-    padding: 65px;
+    padding: 25px;
     font-family: 'Pathway Gothic One', sans-serif;
 }
 
