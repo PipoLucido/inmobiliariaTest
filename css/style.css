@@ -918,3 +918,11 @@ body::-webkit-scrollbar-thumb {
 #respuestaChat a {
     color: aqua;
 }
+
+.galponeraGotaDeAGUA {
+    text-align: center;
+    color: red;
+    font-size: 25px;
+    opacity: 0.24;
+    cursor: default;
+}
