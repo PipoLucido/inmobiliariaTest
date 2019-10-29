@@ -30,3 +30,7 @@ body::-webkit-scrollbar-thumb {
     margin: 15px;
     padding: 15px;
 }
+
+.imagenPrincipal {
+    width: 100px;
+}
