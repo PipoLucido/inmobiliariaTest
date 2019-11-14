@@ -126,9 +126,9 @@ body::-webkit-scrollbar-thumb {
         display: none!important;
     }
     #formularioModal .contactoFOrm {
-        margin-left: 100px!important;
+        margin-left: 120px!important;
         margin-right: 0px!important;
-        width:320px;
+        width:200px!important;
     }
 }
 
