@@ -125,6 +125,11 @@ body::-webkit-scrollbar-thumb {
     .noDisplay {
         display: none!important;
     }
+    
+    #formularioModal{
+    right: -130px;
+        }
+    
     #formularioModal .contactoFOrm {
         display:relative;
         right: 5px;
