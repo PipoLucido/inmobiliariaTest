@@ -1,0 +1,724 @@
+body,html {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+    background: rgb(255, 255, 255);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 0;
+}
+
+.loadingPage{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.searcherContent{
+    background-image: url("http://www.dionisiopropiedades.com.ar/Images/background-03.jpg");
+    background-size: 150%;
+    padding: 125px;
+    min-height: 101%
+}
+
+.titleSearcher{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0);
+    background-color:rgba(255, 251, 0, 0.685) ;
+    margin-bottom:5px ;
+ 
+}
+
+.punteroLink{
+    cursor: pointer!important;
+}
+
+.containerContactoAppBar {
+
+display:flex;
+    justify-content: flex-end;
+}
+
+
+.titleSearcher img{
+    width: 120px;
+ 
+}
+
+.searcherContent h1{
+    color: mediumvioletred;
+}
+
+.searcherContent h2{
+    
+    color: rgb(255, 255, 255);
+}
+
+.searcherEngine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top:15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-color: rgba(255, 255, 255, 0);
+    background-color:rgba(255, 255, 255, 0.685) ;
+ }
+
+.searcherEngine .btn{
+    height: 55px;
+    margin-left: 5px;
+}
+
+.searchEngineFilters{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 25px;
+    padding-bottom:15px ;
+    border-style: solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: rgba(255, 255, 255, 0);
+    background-color:rgba(255, 255, 255, 0.685) ;
+}
+
+.homeSecondBoxInformation{
+    margin: 25px;
+}
+
+.scuareContent{
+    padding: 15px;
+    font-size: 15px;
+}
+
+.mapAndContact{
+    display: grid;
+    
+    grid-template-columns: 1fr 3fr!important;
+}
+
+/*MAP////////////////////////////////*/
+.mapouter{position:relative;text-align:right;height:500px;width:600px;}
+
+.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}
+
+/*MAP////////////////////////////////*/
+
+.contact{
+    background-color: rgb(233, 233, 233);
+    padding: 45px;
+    text-align: initial;
+}
+
+
+
+.contact  p{
+    color:rgb(143, 143, 143) ;
+
+}
+
+.contact  p i{
+    color:rgb(0, 0, 0) ;
+}
+
+.Copyright{
+    
+   text-align: end;
+   margin-top: 200px;
+}
+
+/*-----------RESULTADOS********************/
+
+
+.componenteResultados{
+    display: grid;
+    background-color: rgb(238, 238, 238);
+    grid-template-columns: 2fr 5fr!important;
+}
+
+.filtrosDelCostado{
+background-color: rgb(255, 255, 255);
+margin: 15px;
+    padding: 25px;
+    text-align: start;
+    font-size: 12px;
+    border-style: solid;
+    border-radius: 10px;
+  
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.checkboxBus{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.chipContainer{
+    margin-bottom: 15px;
+    display: none;
+}
+
+.chipContainer1{
+    margin-bottom: 15px;
+    display: none
+}
+
+.mapeoDeResultadosFiltrados{
+    background-color: rgb(238, 238, 238);
+padding: 25px;
+}
+
+.autocompleteREsultados{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.autocompleteREsultados .btn{
+    height: 55px;
+    margin-left: 5px;
+}
+
+.resultadosRender{
+    padding: 15px;
+   font-size: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+/*////////////////////////--CARD--///////////////////////////////*/
+
+.blog-card {
+    box-sizing: border-box;
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+    margin: 1rem auto;
+    box-shadow: 0 3px 7px -1px rgba(0, 0, 0, .1);
+    margin-bottom: 1.6%;
+    background: #fff;
+    line-height: 1.4;
+    font-family: sans-serif;
+     border-radius: 5px;
+    overflow: hidden;
+    z-index: 0;
+    text-align: start;
+}
+
+.blog-card a {
+    color: inherit;
+}
+
+.blog-card a:hover {
+    color: #5ad67d;
+}
+
+.blog-card:hover .photo {
+    /*   transform: scale(1.3) rotate(3deg);*/
+}
+
+.blog-card .meta {
+    position: relative;
+    z-index: 0;
+    height: 180px;
+}
+
+.blog-card .photo {
+    position: absolute;
+    top: 0;
+    /* background-image: url("https://imgar.zonapropcdn.com/avisos/1/00/42/60/28/15/1200x1200/1659663881.jpg");*/
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    /*  transition: transform 0.2s;*/
+}
+
+.imgPhotoCard {
+    width: 120%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.blog-card .details,
+.blog-card .details ul {
+    margin: auto;
+    padding: 0;
+    cursor: pointer;
+    list-style: none;
+}
+
+.blog-card .details {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    margin: auto;
+    transition: left 0.2s;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+.blog-card .details a {
+    text-decoration: dotted underline;
+}
+
+.blog-card .details ul li {
+    display: inline-block;
+}
+
+.blog-card .details .author:before {}
+
+.blog-card .details .date:before {}
+
+.blog-card .details .tags ul:before {}
+
+.blog-card .details .tags li {
+    margin-right: 2px;
+}
+
+.blog-card .details .tags li:first-child {
+    margin-left: -4px;
+}
+
+.blog-card .description {
+    padding: 1rem;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.blog-card .description h1,
+.blog-card .description h2 {
+    font-family: Poppins, sans-serif;
+}
+
+.blog-card .description h1 {
+    line-height: 1;
+    margin: 0;
+    font-size: 1.7rem;
+}
+
+.blog-card .description h2 {
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #a2a2a2;
+    margin-top: 5px;
+}
+
+.blog-card .description .read-more {
+    text-align: right;
+}
+
+.blog-card .description .read-more a {
+    color: #5ad67d;
+    display: inline-block;
+    position: relative;
+}
+
+.blog-card .description .read-more a:after {
+    margin-left: -10px;
+    opacity: 0;
+    vertical-align: middle;
+    transition: margin 0.3s, opacity 0.3s;
+}
+
+.blog-card .description .read-more a:hover:after {
+    margin-left: 5px;
+    opacity: 1;
+}
+
+.blog-card p {
+    position: relative;
+    font-size: 12px;
+    margin: 1rem 0 0;
+}
+
+.blog-card p:first-of-type {
+    margin-top: 1.25rem;
+}
+
+.blog-card p:first-of-type:before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    background: #5ad67d;
+    width: 35px;
+    top: -0.75rem;
+    border-radius: 3px;
+}
+
+.blog-card .details {
+  
+    font-size: 17px;
+}
+
+.blog-card:hover .details {
+    left: 0%;
+    
+}
+
+@media (min-width: 640px) {
+    .blog-card {
+        flex-direction: row;
+        max-width: 700px;
+    }
+    .blog-card .meta {
+        flex-basis: 40%;
+        height: auto;
+    }
+    .blog-card .description {
+        flex-basis: 70%;
+    }
+    /*
+    .blog-card .description:before {
+        transform: skewX(-3deg);
+        content: "";
+        background: #fff;
+        width: 30px;
+        position: absolute;
+        left: -10px;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }*/
+    .blog-card.alt {
+        flex-direction: row-reverse;
+    }
+    .blog-card.alt .description:before {
+        left: inherit;
+        right: -10px;
+        transform: skew(3deg);
+    }
+    .blog-card.alt .details {
+        padding-left: 25px;
+    }
+}
+
+.caracteristicasCard i {
+    color: gray;
+}
+
+.caracteristicasCard i {
+    margin-left: 5px;
+}
+
+#openModal{
+    cursor: pointer!important;
+}
+
+#openModal:hover{
+    color:blueviolet;
+}
+
+.modalResultado{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.carousel {
+
+}
+
+ul.slides {
+    display: block;
+    position: relative;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+ul.slides input {
+    display: none; 
+}
+
+
+.slide-container { 
+    display: block; 
+}
+
+.slide-image {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    transition: all .7s ease-in-out;
+}   
+
+.slide-image img {
+    width: auto;
+    min-width: 100%;
+    height: 600px;
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    font-size: 100px;
+    line-height: 600px;
+    color: #fff;
+}
+
+.carousel-controls label {
+    display: none;
+    position: absolute;
+    padding: 0 20px;
+    opacity: 0;
+    transition: opacity .2s;
+    cursor: pointer;
+}
+
+.slide-image:hover + .carousel-controls label{
+    opacity: 0.5;
+}
+
+.carousel-controls label:hover {
+    opacity: 1;
+}
+
+.carousel-controls .prev-slide {
+    width: 49%;
+    text-align: left;
+    left: 0;
+}
+
+.carousel-controls .next-slide {
+    width: 49%;
+    text-align: right;
+    right: 0;
+}
+
+.carousel-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    z-index: 999;
+    text-align: center;
+}
+
+.carousel-dots .carousel-dot {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.5;
+    margin: 10px;
+}
+
+input:checked + .slide-container .slide-image {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .carousel-controls label {
+     display: block; 
+}
+
+
+
+
+input:checked + .slide-container .nav label { display: block; }
+
+
+
+.modalResultadoContainer1{
+    display: grid;
+    grid-template-columns: 4fr 1fr!important;
+}
+
+.mapouter2{position:relative;text-align:right;height:300px;width:400px;}
+
+.gmap_canvas2 {overflow:hidden;background:none!important;height:300px;width:400px;}
+
+
+#descriptcionModal{
+    text-align: left;
+    padding: 25px;
+   
+}
+
+.colorAppBar{
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr 3fr!important;
+    top: 0;
+    padding: 5px;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(250, 246, 0);
+}
+
+.containerImgAppBar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 17px;
+    color: magenta;
+    font-weight: bold;
+}
+
+
+.imgAppBar{
+    width: 65px!important;
+}
+
+.containerContactoAppBar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+   
+}
+
+.paper1{
+    padding: 15px;
+}
+
+.paper2{
+    margin: 25px;
+   /* margin:15px;*/
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+.paper3{
+    margin: 25px;
+    /* margin:15px;*/
+    padding: 15px;
+
+    text-align: left;
+}
+
+.paper4{
+    margin: 25px;
+    /* margin:15px;*/
+    padding: 15px;
+
+    text-align: center;
+}
+
+.nameForm{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px;
+    border-color: #a2a2a2;
+}
+
+.testForm{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px;
+    border-color: #a2a2a2;
+}
+
+.sentBtn{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px;
+    border-color: #000000;
+    background-color: gold;
+}
+
+
+
+@media (max-width: 846px) {
+
+    .mapAndContact{
+        display: grid;
+        
+        grid-template-columns: 1fr!important ;
+    }
+
+    .componenteResultados{
+        display: grid;
+
+        grid-template-columns: 1fr !important;
+    }
+
+    .blog-card {
+        width: 300px;
+
+    }
+   .autocompleteREsultados{
+       width: 300px;
+   }
+}
+
+
+
+/*/////////////////////////galery/////////////*/
+
+.carrouselImagenes{
+  
+    width: 800px!important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:   0 auto ;
+    padding: 15px;
+}
+
+.containerimagenCcarrousel{
+    width:  100%;
+    margin:  auto 0 ;
+}
+
+.imagenCcarrousel {
+    width:  100%;
+
+}
+  
+  
